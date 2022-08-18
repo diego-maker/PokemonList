@@ -1,0 +1,85 @@
+.About {
+    justify-content: center;
+    display: flex;
+    margin-top: 3.5em;
+}
+
+.AboutPokeMon{
+        justify-content: center;
+        display: flex;
+        margin-top: 0.2em;
+        
+}
+.homePage {
+    display: flex;
+    padding: 1.5em;
+    justify-content: center;
+    background-color: #333;
+}
+
+.homePage h1 {
+    margin: 1em;
+}
+
+.Cards {
+    margin: 15px;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.Cards h1:hover {
+    color: red;
+
+}
+
+.Cards h1:target {
+    display: block;
+
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+
+}
+
+.title {
+    color: #e33d33;
+    text-align: center;
+    font-size: 3em;
+    margin-right: .4em;
+    border-bottom: solid #333;
+}
+
+.title span {
+    color: #333;
+}
+
+.pokemon_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 23%;
+    border-radius: 1em;
+    border: 2px solid #e33d33;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.5);
+    background-color: #333;
+    color: #fff;
+
+}
